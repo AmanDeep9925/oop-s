@@ -20,6 +20,7 @@ public:
 
 		cout << " \n THE SUM OF THE TWO NUMBER IS AS  :  " ;
 		cout << real << " + i" << img;
+		cout << "\n";
 	}
 
 	void diff(complex &c1, complex &c2) {
@@ -28,6 +29,7 @@ public:
 
 		cout << " \n THE DIFFERENCE OF THE TWO NUMBER IS AS  :  " ;
 		cout << real << " + i" << img;
+		cout << "\n";
 	}
 
 	void mul(complex &c1, complex &c2) {
@@ -36,6 +38,7 @@ public:
 
 		cout << " \n THE PRODUCT OF THE TWO NUMBER IS AS  :  " ;
 		cout << real << " + i" << img;
+		cout << "\n";
 	}
 
 	void div(complex &c1, complex &c2) {
@@ -49,6 +52,7 @@ public:
 
 		cout << " \n THE DIVISION OF THE TWO NUMBER IS AS  :  " ;
 		cout << real << " + i" << img;
+		cout << "\n";
 
 	}
 
@@ -66,6 +70,6 @@ int main() {
 
 	res.mul(a, b);
 
-	res.div(a,b);
+	res.div(a, b);
 
 }
